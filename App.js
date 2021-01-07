@@ -70,7 +70,9 @@ app.use('/accountManager', accountManagerRouter)
 //newsManager
 app.use('/newsManager', newsManagerRouter)
 //#endregion
-
+app.get('/',(req,res) =>{
+    res.send("Nguyen Tien Cuong");
+})
 const arr_mess = [];
 const user = [];
 const rooms = [];
