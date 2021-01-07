@@ -136,7 +136,7 @@ app.post("/xuly", (req, res) => {
 })
 
 
-server.listen(4000, function () {
+server.listen(4000 || process.env.PORT, function () {
     console.log('App listening on port 4000!... ');
 });
 
