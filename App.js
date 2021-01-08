@@ -71,7 +71,7 @@ app.use('/accountManager', accountManagerRouter)
 app.use('/newsManager', newsManagerRouter)
 //#endregion
 app.get('/',(req,res) =>{
-    res.send("Nguyen Tien Cuong");
+    res.send("Nguyen Tien Cuong 17DTHA6");
 })
 const arr_mess = [];
 const user = [];
